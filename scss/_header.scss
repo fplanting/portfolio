@@ -1,0 +1,59 @@
+/* animation på iconerna */
+header {
+  .icon {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .icon:hover {
+    transform: scale(1.15);
+  }
+}
+
+/* animation på mitt namn */
+.content {
+  position: absolute;
+  top: 105px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 160px;
+
+  font-family: "Source Code Pro", monospace;
+  font-size: 1rem;
+  line-height: 40px;
+  color: #763a31;
+
+  .content__container {
+    font-weight: 100;
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+
+    .content__container__text {
+      display: inline;
+      float: left;
+      margin: 0;
+      line-height: 1;
+    }
+
+    .content__container__list {
+      margin-top: 0;
+      padding-left: 10px;
+      text-align: left;
+      list-style: none;
+
+      .content__container__list__item {
+        line-height: 1;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@keyframes load_in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

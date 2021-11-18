@@ -1,0 +1,140 @@
+/*header och icons */
+header {
+  background-size: 120%;
+  width: 100%;
+  height: 60px;
+  background-repeat: no-repeat;
+
+  .logga {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.content {
+  left: 0;
+  font-size: 0.9rem;
+  top: 100px;
+  padding-left: 90px;
+  transform: translate(0, -50%);
+}
+.content__container {
+  flex-direction: column;
+}
+
+.content__container__list {
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.links {
+  font-size: 1.1rem; /* ändrar ikonerna */
+  position: absolute;
+  right: 20px;
+  ul {
+    padding: 0;
+  }
+}
+
+/* om mig */
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+
+  .welcomepicture {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: auto;
+    display: block;
+  }
+
+  h1 {
+    font-size: 1rem;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+  }
+
+  p {
+    display: inline-block;
+    margin-left: 10px;
+    width: 95%;
+    font-size: 0.9rem;
+  }
+}
+
+.profilepicture {
+  margin-bottom: 1em;
+  margin-left: 0px;
+  margin-right: 0px;
+
+  .mobile {
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+  }
+  .desktop {
+    display: none;
+  }
+}
+
+/* kompetenser och erfarenheter */
+.skills-experience {
+  grid-template-columns: auto;
+}
+.information {
+  margin-left: 20px;
+  margin-right: 20px;
+
+  .skillspicture {
+    width: 320px;
+    height: 100px;
+  }
+}
+
+.skills {
+  margin-left: 30px;
+}
+
+.experience {
+  margin-left: 30px;
+}
+
+/*portfolio*/
+.portfoliopicture {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-right: 0px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+
+  .project1 {
+    width: 400px;
+    height: 320px;
+  }
+
+  .project2 {
+    width: 400px;
+    height: 320px;
+  }
+  .project3 {
+    width: 400px;
+    height: 320px;
+  }
+}
